@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacrosse Field Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Actions</h2>
+            <ul id="actionList">
+                <li>Tilted</li>
+                <li>Pleasant</li>
+                <li>Salty</li>
+                <li>Retail</li>
+                <li>Citadel</li>
+                <li>Mini</li>
+                <li>Scar</li>
+                <li>Big</li>
+                <li>Gold</li>
+                <li>Grey</li>
+                <li>Purple</li>
+                <li>Green</li>
+                <li>Tact</li>
+                <li>Pump</li>
+                <li>Chug</li>
+                <li>Shield</li>
+                <li>Small Fry</li>
+                <li>Flopper</li>
+                <li>Midas</li>
+                <li>Edit</li>
+                <li>Boxup</li>
+                <li>Reboot</li>
+                <li>Storm</li>
+                <li>X Switch</li>
+                <li>Iso</li>
+            </ul>
+            <input type="text" id="actionSequence" placeholder="Enter action sequence (e.g., Tilted→Mini→Gold)">
+            <button onclick="drawPlay()">Visualize</button>
+        </div>
+        <div class="main">
+            <img id="fieldImage" src="assets/field.svg" alt="Lacrosse Field" width="800" height="600">
+            <canvas id="field" width="800" height="600"></canvas>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

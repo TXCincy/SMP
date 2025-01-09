@@ -1,0 +1,15 @@
+{
+  "name": "lacrosse-field-visualizer",
+  "version": "1.0.0",
+  "description": "A visualizer for lacrosse field plays",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "open src/index.html",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
